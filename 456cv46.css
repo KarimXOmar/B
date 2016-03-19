@@ -49,9 +49,9 @@ li{
     font-size:12px;
 }
 .image img{
-    width:200%; /* image*/
+    width:140%; /* image*/
     position:absolute;
-    right:-50px; /* image*/
+    right:-100px; /* image*/
 }
 .cv_image,
 .image{
