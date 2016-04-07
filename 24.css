@@ -1,26 +1,15 @@
 body{
-    margin:0;
-    padding:0;
-    background:url(http://b.top4top.net/p_95vzps1.jpg) no-repeat center;
-    direction:rtl;
-    font-family:'Droid Arabic Kufi',serif;
-
-#full-screen-background-image {
-  z-index: -999;
-  min-height: 100%;
-  min-width: 1024px;
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
+    background:url(http://b.top4top.net/p_95vzps1.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 .wrapper{
     max-width:950px;
     margin:100px auto auto auto;
     background:#FFF;
-    padding:0 50px 0 50px;
+    padding:0 20px 0 20px;
     display:table;
     border-top:5px solid #595959;
     -webkit-border-radius:5px;
